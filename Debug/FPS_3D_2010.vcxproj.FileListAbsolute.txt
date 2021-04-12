@@ -1,0 +1,6 @@
+C:\Users\taewo\Desktop\DirectXSamples\FPS_3D\Debug\FPS_3D.exe
+C:\Users\taewo\Desktop\DirectXSamples\FPS_3D\Debug\FPS_3D.pdb
+C:\Users\기능반\Desktop\새 폴더\3DEX\Debug\FPS_3D.exe
+C:\Users\기능반\Desktop\새 폴더\3DEX\Debug\FPS_3D.pdb
+C:\Users\taewo\Desktop\3DEX\Debug\FPS_3D.exe
+C:\Users\taewo\Desktop\3DEX\Debug\FPS_3D.pdb

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="Loader">
+      <UniqueIdentifier>{8dc40bd1-2e54-4893-91a4-d9992dbc3ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{33c3b225-80d0-4856-ad66-e66fd5dcd736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{2b24e763-2da8-4636-9489-732dcad1e98e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Load">
+      <UniqueIdentifier>{f00127be-86ac-479d-b831-02a57f06f00f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Object">
+      <UniqueIdentifier>{0f42831c-725e-4007-bbe3-a08b6304515e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Render">
+      <UniqueIdentifier>{bf9e18aa-ecf2-46e8-8c72-6045ca96c431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Render\2D">
+      <UniqueIdentifier>{259bbf25-3b67-400f-a81b-da87d41e2ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Render\3D">
+      <UniqueIdentifier>{ee86f6ef-6669-4bce-a77f-5ad2d2019065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Cam">
+      <UniqueIdentifier>{ac8452bf-f6d9-47ed-bd57-69992baf579c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{b93696c1-9730-455e-971c-f2827c723d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="안쓰는거">
+      <UniqueIdentifier>{93e7a84b-d85e-4e55-a17e-88c00d87a779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Coll">
+      <UniqueIdentifier>{22e5660c-9274-44e0-a495-c5c06e1fc22a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Scene">
+      <UniqueIdentifier>{d465cf00-795b-41c3-89f8-8ecd815b45b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Object\CollBox">
+      <UniqueIdentifier>{cd62ae69-f95c-4936-a01f-a15dcc1789fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\DirtBlock">
+      <UniqueIdentifier>{fbffd704-6d1a-4e7a-a037-66246268b24f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player">
+      <UniqueIdentifier>{94b1377a-3437-4812-b3db-f1723338b440}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MeshLoader.cpp">
+      <Filter>Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="FPS_3D.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadManager.cpp">
+      <Filter>Manager\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Manager\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Manager\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Render2DManager.cpp">
+      <Filter>Manager\Render\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Render3DManager.cpp">
+      <Filter>Manager\Render\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="CamManager.cpp">
+      <Filter>Manager\Cam</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBox.cpp">
+      <Filter>안쓰는거</Filter>
+    </ClCompile>
+    <ClCompile Include="GizmoManager.cpp">
+      <Filter>안쓰는거</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Manager\Coll</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="EXObject.cpp">
+      <Filter>안쓰는거</Filter>
+    </ClCompile>
+    <ClCompile Include="ingameScene.cpp" />
+    <ClCompile Include="CollisionBox.cpp">
+      <Filter>Object\CollBox</Filter>
+    </ClCompile>
+    <ClCompile Include="DirtBlock.cpp">
+      <Filter>Object\DirtBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalEnemy.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MeshLoader.h">
+      <Filter>Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadManager.h">
+      <Filter>Manager\Load</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Manager\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Manager\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Render2DManager.h">
+      <Filter>Manager\Render\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="CamManager.h">
+      <Filter>Manager\Cam</Filter>
+    </ClInclude>
+    <ClInclude Include="Render3DManager.h">
+      <Filter>Manager\Render\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.h">
+      <Filter>안쓰는거</Filter>
+    </ClInclude>
+    <ClInclude Include="GizmoManager.h">
+      <Filter>안쓰는거</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Manager\Coll</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="EXObject.h">
+      <Filter>안쓰는거</Filter>
+    </ClInclude>
+    <ClInclude Include="ingameScene.h" />
+    <ClInclude Include="CollisionBox.h">
+      <Filter>Object\CollBox</Filter>
+    </ClInclude>
+    <ClInclude Include="DirtBlock.h">
+      <Filter>Object\DirtBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalEnemy.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="FPS_3D.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
